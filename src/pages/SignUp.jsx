@@ -77,11 +77,11 @@ const SignUp = () => {
             </button>
           </div>
 
-          <button 
+          <button onclick="window.location.href='/mainPage';" 
             type="submit"
             className="w-full p-3 bg-gradient-to-r from-[#0E3D3F] to-[#000000] text-white rounded-lg hover:bg-teal-600 transition-colors"
           >
-            Sign In
+            Sign Up
           </button>
         </form>
 
