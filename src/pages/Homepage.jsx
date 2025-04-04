@@ -27,7 +27,7 @@ const Homepage = () => {
             className="bg-gradient-to-r from-[#0E3D3F] to-[#000000] text-white 
                      py-3 text-lg px-6 rounded-lg hover:opacity-90 transition-opacity"
           >
-            Get Started
+            Get Started (Dylan Zhu)
           </button>
         </Link>
       </main>

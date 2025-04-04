@@ -2,11 +2,11 @@
 
 // pages/index.js
 import React, { useState } from 'react';
+import logo from '../../public/logo.png';
 import talkTo from '../../public/Talkto.png';
 import Online from '../../public/Online.png';
 import People from '../../public/People.png';
-
-import SideBar from '../layouts/sidebar';
+import Sidebar from '../layouts/sidebar';
 
 export default function MainPage() {
   const [activeButton, setActiveButton] = useState('Trending');
@@ -66,7 +66,8 @@ export default function MainPage() {
   ];
   return (
     <div className="flex h-screen bg-[#161515] text-white">
-      <SideBar />
+      <Sidebar />
+
       {/* Main content */}
       <div className="flex-1 flex flex-col overflow-y-hidden">
         {/* Top avatar scroll */}
