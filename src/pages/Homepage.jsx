@@ -29,7 +29,7 @@ const Homepage = () => {
         <Link to="/signIn">
   <button className="bg-gradient-to-r from-[#0E3D3F] to-[#000000] text-white 
                      py-3 text-lg px-6 rounded-lg hover:opacity-90 transition-opacity">
-    Get Started (Dylan Zhu)
+    Get Started 
   </button>
 </Link>
       </main>
