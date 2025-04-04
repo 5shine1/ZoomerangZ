@@ -1,6 +1,4 @@
-'use client';
 
-// pages/index.js
 import React, { useState } from 'react';
 import logo from '../../public/logo.png';
 import talkTo from '../../public/Talkto.png';

@@ -1,4 +1,4 @@
-// components/Sidebar.js
+
 import React from 'react';
 import { Home, Users, Mail, Star, LogIn } from 'lucide-react';
 import logo from '../../public/logo.png';
@@ -59,4 +59,8 @@ export default function Sidebar({ activeTab, setActiveTab }) {
       </div>
     </div>
   );
+
 }
+
+}
+
